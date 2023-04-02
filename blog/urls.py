@@ -12,6 +12,8 @@ urlpatterns = [
     path('blog',views.blog,name="blog"),
     path('contact',views.contact,name="contact"),
     path('category',views.category,name="category"),
+
+    
     # Auth
     path('login/',views.login,name="login"),
     path('signup/',views.signup,name="signup"),
